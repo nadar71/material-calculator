@@ -25,7 +25,7 @@ class ExpressionEvaluatorTest {
         )
 
         // assertThat(evaluator.evaluate()).isEqualTo(4)
-        assertThat(4, `is`(evaluator.evaluate()))
+        assertThat(4.0, `is`(evaluator.evaluate()))
     }
 
     @Test
