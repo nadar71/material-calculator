@@ -1,7 +1,6 @@
-package com.plcoding.materialcalculator.domain
+package eu.indiewalkabout.material_calculator.domain
 
-import eu.indiewalkabout.material_calculator.domain.CalculatorAction
-import eu.indiewalkabout.material_calculator.domain.Operation
+import com.plcoding.materialcalculator.domain.ExpressionWriter
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Before

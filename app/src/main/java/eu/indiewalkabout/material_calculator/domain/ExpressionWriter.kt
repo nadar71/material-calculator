@@ -44,13 +44,10 @@ class ExpressionWriter {
     }
 
     private fun prepareForCalculation(): String {
-        val newExpression = expression.takeLastWhile {
-            it in "$operationSymbols(."
-        }
-        if(newExpression.isEmpty()) {
+        if(expression.isEmpty()) {
             return "0"
         }
-        return newExpression
+        return expression
     }
 
     private fun processParentheses() {
