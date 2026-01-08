@@ -3,6 +3,7 @@ package eu.indiewalkabout.material_calculator
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import eu.indiewalkabout.material_calculator.presentation.CalculatorScreen
 import eu.indiewalkabout.material_calculator.ui.theme.MaterialCalculatorTheme
 
 class MainActivity : ComponentActivity() {
@@ -10,6 +11,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialCalculatorTheme {
+                CalculatorScreen()
             }
         }
     }
